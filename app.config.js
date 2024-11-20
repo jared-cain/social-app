@@ -250,7 +250,7 @@ module.exports = function (config) {
           },
         ],
         [
-          '@config-plugins/react-native-dynamic-app-icon',
+          '@mozzius/expo-dynamic-app-icon',
           {
             bonfire: {
               image: './assets/icon-bonfire.png',
@@ -260,7 +260,7 @@ module.exports = function (config) {
               image: './assets/icon-midnight.png',
               prerendered: true,
             },
-            'nordic-light': {
+            nordic_light: {
               image: './assets/icon-nordic-light.png',
               prerendered: true,
             },
